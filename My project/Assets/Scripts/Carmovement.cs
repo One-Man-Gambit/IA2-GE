@@ -58,6 +58,13 @@ public class Carmovement : MonoBehaviour
         isRightPressed = !isRightPressed;
     }
 
+    public void Reset() 
+    {
+        isRightPressed = false;
+        isLeftPressed = false;
+        isGasPressed = false;
+    }
+
     public void raceFinish()
     {
 
