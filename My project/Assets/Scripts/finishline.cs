@@ -10,6 +10,7 @@ public class finishline : MonoBehaviour
         if (other.collider.tag == "Car")
         {
             Carmovement.instance.raceFinish();
+            Destroy(gameObject);
         }
     }
     // Start is called before the first frame update
