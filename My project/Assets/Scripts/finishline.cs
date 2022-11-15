@@ -6,7 +6,7 @@ public class finishline : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other)
     {
-
+        Debug.Log("Collision!");
         if (other.collider.tag == "Car")
         {
             Carmovement.instance.raceFinish();
